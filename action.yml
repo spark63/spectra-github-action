@@ -1,0 +1,15 @@
+name: "Spectra Github Action"
+description: "github action for spectra"
+
+inputs:
+  api_key:
+    description: 'API key obtained from Spectra Web'
+    required: true
+  path:
+    description: 'Path for audit targets. Leave empty for root directory.'
+    required: false
+    default: "."
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
