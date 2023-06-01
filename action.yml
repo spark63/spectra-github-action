@@ -1,4 +1,4 @@
-name: "Spectra"
+name: "Spectra - Automated Smart Contract Audit"
 description: "github action for spectra"
 
 inputs:
