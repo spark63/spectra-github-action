@@ -24,7 +24,7 @@ Spectra Github Action makes an automated audit on smart contracts.
 ## Example Usage
 
 ```
-name: Spectra Github Action
+name: Spectra-Github-Action
 
 on:
   push:
