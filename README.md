@@ -4,6 +4,8 @@
 ## Introduction
 Spectra Github Action makes an automated audit on smart contracts.
 
+Check [here](https://github.com/spark63/spectra-github-action-sample) for sample usage
+
 <br>
 
 
