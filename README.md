@@ -39,15 +39,11 @@ jobs:
         uses: actions/checkout@v3
         
       - name: Spectra Github Action Step
-        uses: spark63/spectra-github-action@v1
+        uses: spark63/spectra-github-action@v0.1.0
         with:
           api_key: ${{ secrets.SPECTRA_API_KEY }}
-          path: "contracts"
+          path: "target"
 
 ```
 
-<br>
 
-## License
-
-TBD
